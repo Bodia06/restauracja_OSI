@@ -1,0 +1,93 @@
+.about-us__container {
+  width: 100%;
+  height: calc(100vh - 90px);
+  padding: 2.5rem 0;
+  justify-items: center;
+}
+
+.about-us__wrapper {
+  width: 80%;
+  padding: 1.25rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+  border: 0.25em solid;
+  border-radius: 1.25em;
+  border-color: #ffa500;
+  background-image: url('/assets/images/about-us-background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.about-us__title {
+  text-align: center;
+  font-family: var(--about-us-title-font);
+  font-weight: 500;
+  letter-spacing: 0.125em;
+  font-size: 2.1875em;
+  color: var(--about-us-main-color);
+}
+
+.about-us__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+}
+
+.about-us__info-logo {
+  align-items: center;
+}
+
+.about-us__info-logo__img {
+  height: var(--about-us-image-height);
+  width: var(--about-us-image-width);
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  border: 0.1875em solid;
+  border-radius: 1.25em;
+  border-color: var(--about-us-main-color);
+  display: flex;
+}
+
+.about-us__info-description {
+  font-size: 1.2em;
+  border-radius: 0.625em;
+  padding: 1.25rem 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.about-us__info-description__lists-item {
+  list-style-type: none;
+  padding-left: 1.25rem;
+  position: relative;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.about-us__info-description__lists-item__highlight {
+  font-family: var(--about-us-description-highlight);
+  font-weight: 100;
+  color: var(--about-us-main-color);
+}
+
+.about-us__info-description__lists-item__quote {
+  font-family: var(--about-us-description-quote);
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: var(--about-us-main-color);
+}
+
+.about-us__info-description__lists-item__type-classic {
+  font-family: var(--about-us-description-type-classic);
+  font-style: italic;
+  color: var(--about-us-main-color);
+}
+
+.about-us__info-description__lists-item__type-spicy {
+  font-family: var(--about-us-description-type-spicy);
+  letter-spacing: 0.05em;
+  color: var(--about-us-main-color);
+}

@@ -2,4 +2,14 @@
   --with-logo: 70px;
   --height-logo: 70px;
   --color-link-nav-active: #d2691e;
+  --about-us-title-font: 'Caprasimo', serif;
+  --about-us-description-highlight: 'Caprasimo', serif;
+  --about-us-description-quote: Cambria, Cochin, Georgia, Times,
+    'Times New Roman', serif;
+  --about-us-description-type-classic: Georgia,
+    'Times New Roman', Times, serif;
+  --about-us-description-type-spicy: 'Miltonian Tattoo', serif;
+  --about-us-image-height: 400px;
+  --about-us-image-width: 320px;
+  --about-us-main-color: #d2691e;
 }
