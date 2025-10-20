@@ -1,13 +1,14 @@
 .about-us__container {
   width: 100%;
+  display: flex;
+  justify-content: center;
   height: calc(100vh - 90px);
   padding: 2.5rem 0;
-  justify-items: center;
 }
 
 .about-us__wrapper {
   width: 80%;
-  padding: 1.25rem 2.5rem;
+  padding: 1.25rem 3.5rem;
   display: flex;
   flex-direction: column;
   gap: 1.25em;
