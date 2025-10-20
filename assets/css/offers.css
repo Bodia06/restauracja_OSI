@@ -1,6 +1,7 @@
 .offers__container {
   width: 100%;
   padding: 0 3.125rem;
+  margin-bottom: 3.125rem;
 }
 
 .offers__wrapper {

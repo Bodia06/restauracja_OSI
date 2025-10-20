@@ -1,0 +1,92 @@
+.contact__container {
+  width: 100%;
+  padding: 0 3.125rem;
+  margin-bottom: 3.125rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__wrapper {
+  width: 100%;
+  max-width: 900px;
+  padding: 30px;
+  border: 0.25em solid #d2691e;
+  border-radius: 1.25em;
+  background: linear-gradient(135deg, #ffa500 0%, #ff8c00 100%);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact__wrapper:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.contact__title {
+  font-family: 'Caprasimo', serif;
+  font-size: 38px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.contact__info {
+  width: 100%;
+  padding: 20px;
+}
+
+.contact__info-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.contact__info-lists__item-left,
+.contact__info-lists__item-right {
+  width: 45%;
+  background-color: #fff8f0;
+  border-radius: 1em;
+  padding: 15px 20px;
+  list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  color: #3e1f00;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact__info-lists__item-left:hover,
+.contact__info-lists__item-right:hover {
+  background-color: #ffe4b5;
+  transform: translateY(-2px);
+}
+
+.contact__info-lists__item-contact {
+  font-size: 26px;
+  font-weight: bold;
+  color: #d2691e;
+  margin-bottom: 8px;
+}
+
+.contact__info-lists__item-information {
+  color: #3e1f00;
+  text-decoration: none;
+  margin-left: 8px;
+  transition: color 0.3s ease;
+}
+
+.contact__info-lists__item-information:hover {
+  color: #d2691e;
+}
+
+.contact__info-lists i {
+  color: #d2691e;
+  margin-right: 10px;
+  font-size: 1.2em;
+}
