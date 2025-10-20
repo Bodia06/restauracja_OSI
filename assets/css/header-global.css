@@ -9,11 +9,26 @@
     background-color: #ffa500;
 }
 
-.header__image-logo {
+.header__logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__logo-image {
     width: var(--with-logo);
     height: var(--height-logo);
-    border: 3px solid #000;
+    border: 3px solid #D2691E;
     border-radius: 50%;
+}
+
+.header__logo-title {
+    color: #fff;
+    font-size: 1.5em;
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .header__nav-wrapper {
@@ -44,6 +59,7 @@
 }
 
 .header__nav-lists__item a:hover {
+    color: var(--color-link-nav-active);
     transform: scale(1.1);
 }
 
