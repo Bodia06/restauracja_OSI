@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "Druga pizza za połowę ceny",
+    "description": "Wprowadź promocję, w której klienci zamawiający dwie pizze po Czwartkam otrzymują tańszą pizzę za połowę ceny. To popularna oferta, która zachęca do większych zamówień."
+  },
+  {
+    "id": 1,
+    "name": "Zniżka na wynos",
+    "description": "Oferuj rabat na zamówienia na wynos, 15% zniżki przy zamówieniu powyżej określonej kwoty - 45zł. To motywuje klientów do częstszych zamówień."
+  },
+  {
+    "id": 2,
+    "name": "Współpraca z influencerami",
+    "description": "Zapraszaj lokalnych influencerów do odwiedzenia Twojej restauracji i podzielenia się opinią w zamian za darmowe jedzenie."
+  },
+  {
+    "id": 3,
+    "name": "Media społecznościowe",
+    "description": "Regularnie publikuj informacje o promocjach na Facebooku, Instagramie i TikToku. Używaj atrakcyjnych zdjęć i hashtagów, aby zwiększyć zasięg."
+  }
+]

@@ -1,5 +1,5 @@
 const loadingMenuData = () =>
-  fetch('../../data/menuData.json')
+  fetch('assets/data/menuData.json')
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
