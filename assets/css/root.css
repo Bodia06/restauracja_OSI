@@ -1,5 +1,9 @@
 :root {
+  --color-default: #d2691e;
+  --bg-color-default: #ffa500;
   --with-logo: 70px;
   --height-logo: 70px;
   --color-link-nav-active: #d2691e;
+  --width-menu-item-img: 100%;
+  --height-menu-item-img: 300px;
 }
