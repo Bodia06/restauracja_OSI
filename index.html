@@ -28,16 +28,22 @@
       <nav class="header__nav-wrapper">
         <ul class="header__nav-lists">
           <li class="header__nav-lists__item"><a href="#">Strona główna</a></li>
-          <li class="header__nav-lists__item"><a href="#">O nas</a></li>
-          <li class="header__nav-lists__item"><a href="#">Menu</a></li>
-          <li class="header__nav-lists__item"><a href="#">Oferta</a></li>
-          <li class="header__nav-lists__item"><a href="#">Kontakt</a></li>
+          <li class="header__nav-lists__item">
+            <a href="#about-us__id">O nas</a>
+          </li>
+          <li class="header__nav-lists__item"><a href="#menu__id">Menu</a></li>
+          <li class="header__nav-lists__item">
+            <a href="#offers__id">Oferta</a>
+          </li>
+          <li class="header__nav-lists__item">
+            <a href="#contacts__id">Kontakt</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="about-us__container">
-        <article class="about-us__wrapper">
+        <article class="about-us__wrapper" id="about-us__id">
           <h1 class="about-us__title">O nas!</h1>
           <div class="about-us__info">
             <div class="about-us__info-logo">
@@ -104,19 +110,19 @@
           </div>
         </article>
       </section>
-      <section class="menu__container">
+      <section class="menu__container" id="menu__id">
         <article class="menu__wrapper">
           <h2 class="menu__title">Menu</h2>
           <ul class="menu-lists"></ul>
         </article>
       </section>
-      <section class="offers__container">
+      <section class="offers__container" id="offers__id">
         <article class="offers__wrapper">
           <h2 class="offers__title">Oferta specjalna</h2>
           <ul class="offers__lists"></ul>
         </article>
       </section>
-      <section class="contact__container">
+      <section class="contact__container" id="contacts__id">
         <article class="contact__wrapper">
           <h1 class="contact__title">Kontakt</h1>
           <div class="contact__info">
@@ -180,6 +186,54 @@
         </article>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer__container">
+      <div class="footer__wrapper">
+        <div class="footer__logo">
+          <img
+            class="footer__logo-image"
+            src="./assets/images/logo.jpg"
+            alt="Logo Chill Pizza"
+          />
+          <h2 class="footer__logo-title">Chill Pizza</h2>
+        </div>
+
+        <div class="footer__links">
+          <h3 class="footer__links-title">Szybkie linki</h3>
+          <ul class="footer__links-list">
+            <li><a href="#">Strona główna</a></li>
+            <li><a href="#about-us__id">O nas</a></li>
+            <li><a href="#menu__id">Menu</a></li>
+            <li><a href="#offers__id">Oferta</a></li>
+            <li><a href="#contacts__id">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__socials">
+          <h3 class="footer__socials-title">Znajdź nas</h3>
+          <ul class="footer__socials-list">
+            <li>
+              <a href="https://www.facebook.com/chill_pizza" target="_blank"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/chill_pizza" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:chill_pizza@gmail.com"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Chill Pizza. Wszelkie prawa zastrzeżone.</p>
+        <p>Stworzone z ❤️ przez zespół Chill Pizza.</p>
+      </div>
+    </footer>
   </body>
 </html>
