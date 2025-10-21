@@ -1,0 +1,86 @@
+@media (max-width: 68.75rem) {
+  .about-us__container {
+    height: auto;
+  }
+
+  .about-us__info {
+    flex-direction: column;
+  }
+
+  .contact__info-lists {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__info-lists__item-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact__info-lists__item-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 48.125rem) {
+  .header__container {
+    height: auto;
+    padding: 0.9375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625em;
+  }
+
+  .header__logo {
+    width: 100%;
+    justify-content: center;
+    gap: 0.625em;
+  }
+
+  .header__logo-image {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  .header__logo-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .header__nav-wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header__nav-lists {
+    padding: 0.625rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9375em;
+  }
+
+  .header__nav-lists__item a {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 26.875rem) {
+  .footer__links-title {
+    text-align: center;
+  }
+
+  .footer__links-list li {
+    justify-content: center;
+  }
+
+  .footer__socials-title {
+    text-align: center;
+  }
+
+  .footer__socials-list {
+    justify-content: center;
+  }
+}
