@@ -11,8 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="./assets/js/menu.js" defer></script>
-    <script src="./assets/js/offers.js" defer></script>
+    <script type="module" src="./assets/js/index.js"></script>
     <title>Chill Pizza</title>
   </head>
   <body>
@@ -42,6 +41,23 @@
       </nav>
     </header>
     <main>
+      <div class="shopping-cart__container">
+        <button class="shopping-cart__btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <div class="shopping-cart__count">0</div>
+        </button>
+        <section class="shopping-cart__section">
+          <div class="shopping-cart__wrapper">
+            <h2 class="shopping-cart__title">Twój koszyk</h2>
+            <ul class="shopping-cart__lists"></ul>
+            <div class="shopping-cart__total">
+              <span class="shopping-cart__total-text">Łącznie:</span>
+              <span class="shopping-cart__total-amount">0 PLN</span>
+            </div>
+            <button class="shopping-cart__checkout-btn">Przejdź do kasy</button>
+          </div>
+        </section>
+      </div>
       <section class="about-us__container">
         <article class="about-us__wrapper" id="about-us__id">
           <h1 class="about-us__title">O nas!</h1>
@@ -239,7 +255,6 @@
           </ul>
         </div>
       </div>
-
       <div class="footer__bottom">
         <p>&copy; 2025 Chill Pizza. Wszelkie prawa zastrzeżone.</p>
         <p>Stworzone z ❤️ przez zespół Chill Pizza.</p>
