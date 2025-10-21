@@ -1,19 +1,6 @@
-const loadingOffersData = () =>
-  fetch('assets/data/offersData.json')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      return response.json();
-    })
-    .catch(() => {
-      console.log('Failed to load offersData.json');
-      return [];
-    });
-
 const offersLists = document.querySelector('.offers__lists');
 
-const offersActive = offersData => {
+export const offersActive = offersData => {
   const today = new Date().getDay();
 
   return offersData.map(offer => {
@@ -26,7 +13,7 @@ const offersActive = offersData => {
   });
 };
 
-const renderOffers = offersDataArray => {
+export const renderOffers = offersDataArray => {
   offersLists.innerHTML = '';
 
   offersDataArray.forEach(offerData => {
@@ -55,5 +42,3 @@ const renderOffers = offersDataArray => {
     offersLists.appendChild(offerItem);
   });
 };
-
-loadingOffersData().then(offersActive).then(renderOffers);
